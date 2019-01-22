@@ -14,10 +14,18 @@ html {
 *:after {
     box-sizing: inherit;
 }
+
+
+
 body {
   background-color: #FFF;
-	font-family: "cwTeXYen";
+	font-family: "Microsoft JhengHei","cwTeXYen";
 }
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
+	font-family: "Microsoft JhengHei","cwTeXYen";
+}
+
 .CV-u-nowrap {
   white-space: nowrap;
 }
@@ -27,7 +35,7 @@ body {
   padding: 0 2em;
   color: #222;
   font-size: 1em;
-  font-family: "cwTeXYen",'Open Sans', sans-serif;
+  font-family: "Microsoft JhengHei","cwTeXYen",'Open Sans', sans-serif;
 }
 @media all and (max-width: 500px) {
   .CV-page {
@@ -65,7 +73,7 @@ body {
 /* if IE<=7 */
 .CV-page\ {
   width: 1100px;
-  font-family: "cwTeXYen","Comic Sans MS", "Comic Sans", cursive;
+  font-family:"Microsoft JhengHei", "cwTeXYen","Comic Sans MS", "Comic Sans", cursive;
 }
 /* Headings
 ****************************************************/
@@ -79,13 +87,14 @@ body {
     font-size: 1.8em;
     line-height: 0.9;
     text-align: center;
+    margin-top: 3px;
 }
 .CV-primaryHeading-position {
     display: block;
     font-size: 1em;
     line-height: 1;
     color: #00aef0;
-    font-style: italic;
+    font-style: normal;
     text-align: center;
 }
 .CV-secondaryHeading {
@@ -109,12 +118,12 @@ body {
           transform: scaleX(0.75) rotate(45deg);
 }
 .CV-tertiaryHeading {
-  margin-top: 0;
-  line-height: 1;
-  color: #00aef0;
-  font-style: italic;
-  font-weight: normal;
-  text-transform: uppercase;
+    margin-top: 0;
+    line-height: 1;
+    color: #00aef0;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
 }
 /* Details
 ****************************************************/
