@@ -96,6 +96,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
     color: #00aef0;
     font-style: normal;
     text-align: center;
+    margin-top: 10px;
 }
 .CV-secondaryHeading {
     position: relative;
@@ -122,7 +123,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
     line-height: 1;
     color: #00aef0;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 500;
     text-transform: uppercase;
 }
 /* Details
@@ -334,6 +335,8 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
 .CV-timeline-details-item {
     margin-bottom: 0.5em;
     margin-left: 10px;
+    font-size: 18px;
+    color: #6f6f6f;
 }
 /* Skills
 ****************************************************/
