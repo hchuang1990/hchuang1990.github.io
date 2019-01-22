@@ -323,7 +323,8 @@ body {
   list-style-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAGElEQVQIW2NkYGD4D8TIgJERTQDMpVAQAGaUAQbko3DsAAAAAElFTkSuQmCC");
 }
 .CV-timeline-details-item {
-  margin-bottom: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: 10px;
 }
 /* Skills
 ****************************************************/
