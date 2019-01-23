@@ -169,12 +169,17 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
 .CV-detail--email:before {
   background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/14082/CV_icons_email.svg');
 }
-.CV-detail--twitter:before {
-  background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/14082/CV_icons_email.svg');
+.CV-detail--github:before {
+  background-image: url('./img/github.svg');
 }
 .CV-detail--linkedin:before {
   background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/14082/CV_icons_linkedin.svg');
 }
+
+.CV-detail--facebook:before {
+  background-image: url('./img/fb.svg');
+}
+
 .CV-detail--website:before {
   background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/14082/CV_icons_web.svg');
 }
@@ -184,6 +189,10 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
 .CV-detail--experiments:before {
   background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/14082/CV_icons_codepen.svg');
 }
+
+
+
+
 /* end if SVG */
 .CV-detail-key {
   display: inline-block;
